@@ -396,7 +396,7 @@ $('#confirm_mes').hide();
 <body onload="affichemenu();slide();def();maxWindow()">
 <div id="container">
 <div id="bgv" style="display:none;position:fixed;background-color:black;left:0;top:0;width:100%;height:100%;opacity:0.7;z-index:105"></div>
-<div id="valida" style="display:none;position:fixed;background-color:black;left:450px;top:270px;padding:15px;z-index:106;border-radius:15px;box-shadow:0 0 0.8em black;"><img src="images/valid.png"><i>&nbsp;<span style="font-size:18px;color:white;font-family:calibri;font-weight:bold;position:relative;top:-15px;">Ajouté au panier</span></i></div>
+<div id="valida" style="display:none;position:fixed;background-color:black;left:450px;top:270px;padding:15px;z-index:106;border-radius:15px;box-shadow:0 0 0.8em black;"><img src="images/valid.png"><i>&nbsp;<span style="font-size:18px;color:white;font-family:calibri;font-weight:bold;position:relative;top:-15px;">AjoutÃ© au panier</span></i></div>
 <div id="wb_Shape1" style="position:fixed;left:0px;top:0px;width:220px;height:100%;z-index:0;">
 </div>
 <div id="wb_Shape2" style="position:fixed;left:1px;top:0px;width:219px;height:46px;z-index:1;">
@@ -410,28 +410,28 @@ $('#confirm_mes').hide();
 </div>
 <div id="calci" style="background-color:#D1180B;opacity:0.9;box-shadow:0 0 0.5em black;border-radius:4px;border:1px groove #210401;text-shadow:1px 1px 0 black;padding:0px 3px;position:fixed;top:2px;left:415px;z-index:105;font-size:14px;color:white;font-family:calibri;font-weight:bold">0</div>
 <img src="images/pan.png" style="position:fixed;top:3px;left:382px;z-index:104">
-<div id="wb_Shape3" style="position:fixed;left:219px;top:0px;width:809px;height:47px;z-index:99;">
-<img src="images-site/img0003.png" id="Shape3" alt="" style="border-left:1px solid black;border-width:1;width:804px;height:47px;"></div>
+<div id="wb_Shape3" style="position:fixed;left:219px;top:0px;width:100%;height:47px;z-index:99;">
+<img src="images-site/img0003.png" id="Shape3" alt="" style="border-left:1px solid black;border-width:1;width:100%;height:47px;"></div>
 <input type="submit" onclick="macommande()" id="Button1" name="" value="Valider ma commande" style="background-color:white;position:fixed;left:229px;top:5px;padding:8px;z-index:100;">
 <input type="submit" value="Retour" onclick="cacher()" id="Button2" name="" style="position:fixed;left:955px;text-align:center;top:5px;padding:8px;z-index:101;">
 <button onclick="slide()" id="Button3" name="" style="position:fixed;left:870px;text-align:center;top:5px;padding:8px;z-index:101;"><img src="images/acceuil.png">&nbsp;Accueil</button>
-<div onclick="def();$('#aff_contenue0').hide()" id="aff_contenue0" style="background-color:black;opacity:0.6;position:fixed;top:1px;left:220px;width:809px;height:750px;z-index:135;">
+<div onclick="def();$('#aff_contenue0').hide()" id="aff_contenue0" style="background-color:black;opacity:0.6;position:fixed;top:1px;left:220px;width:100%;height:750px;z-index:135;">
 <img style="margin-top:350px;margin-left:370px;" src="images/play.png">
 </div>
-<div id="aff_contenue" style="position:relative;top:40px;left:220px;width:790px;height:768px;z-index:6;">
+<div id="aff_contenue" style="position:relative;top:40px;left:220px;width:100%;height:768px;z-index:6;">
 <div id="charg2" style="display:none"></div>
 </div>
-<div id="aff_contenue2" onclick="$('#aff_contenue').fadeIn();$('#aff_contenue2').hide();" style="background-color:black;position:fixed;display:none;top:47px;height:768px;left:220px;width:788px;z-index:7;">
+<div id="aff_contenue2" onclick="$('#aff_contenue').fadeIn();$('#aff_contenue2').hide();" style="background-color:black;position:fixed;display:none;top:47px;height:768px;left:220px;width:100%;z-index:7;">
 <div id="charg3" style="display:none"></div>
 </div>
-<div id="aff_contenue3" style="padding:20px;position:absolute;display:none;background:-webkit-gradient(linear, center top, center bottom, from(#050403), to(#000));top:50px;border-radius:5px;box-shadow:0 0 0.5em black;max-height:900px;overflow-x:auto;left:252px;width:690px;z-index:77;">
+<div id="aff_contenue3" style="padding:20px;position:absolute;display:none;background:-webkit-gradient(linear, center top, center bottom, from(#050403), to(#000));top:50px;border-radius:5px;box-shadow:0 0 0.5em black;max-height:900px;overflow-x:auto;left:252px;width:100%;z-index:77;">
 </div>
 
 <div id="aff_contenue4" style="position:fixed;display:none;background-color:black;top:0px;left:0px;height:100%;width:100%;z-index:300;opacity:0.8">
 </div>
-<div id="confirm_mes" style="display:none;position:fixed;top:130px;left:300px;border-radius:5px;box-shadow:0 0 0.5em gray;width:480px;height:250px;background-color:black;z-index:301"><img style="border-top-left-radius:5px;border-top-right-radius:5px;border-bottom:1px solid gray;" src="images/confirm.png">
-<p style="padding:10px 25px;color:white;font-family:calibri;font-size:17px;" >En confirmant votre choix, votre commande sera validé et vous serez servi dans quelques instants. </p>
-<p style="padding:0px 25px;color:white;font-family:calibri;font-size:19px;" >Etes-vous sûr ? </p>
+<div id="confirm_mes" style="display:none;position:fixed;top:20%;left:30%;border-radius:5px;box-shadow:0 0 0.5em gray;width:480px;height:250px;background-color:black;z-index:301"><img style="border-top-left-radius:5px;border-top-right-radius:5px;border-bottom:1px solid gray;" src="images/confirm.png">
+<p style="padding:10px 25px;color:white;font-family:calibri;font-size:17px;" >En confirmant votre choix, votre commande sera validÃ© et vous serez servi dans quelques instants. </p>
+<p style="padding:0px 25px;color:white;font-family:calibri;font-size:19px;" >Etes-vous sÃ»r ? </p>
 <div style="padding:5px 25px;float:right;"><img style="border-radius:4px;box-shadow:0 0 0.5em gray;" onclick="non()" src="images/non.png"/><img style="margin-left:195px;border-radius:4px;box-shadow:0 0 0.5em gray;" onclick="oui(1);slide()" src="images/oui.png"/></div>
 </div>
 </div>
