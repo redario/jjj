@@ -1,0 +1,16 @@
+<html>
+<head>
+<script type="text/javascript">
+function calcul()
+{
+var a=document.getElementById('calc').innerHTML;
+var b=parseInt(a)+1;
+document.getElementById('calc').innerHTML=b;
+}
+</script>
+</head>
+<body>
+<input onclick="calcul()" type="submit" value="ok">
+<div id="calc">0</div>
+</body>
+</html>
